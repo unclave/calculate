@@ -28,54 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.PLUS = new System.Windows.Forms.Button();
+            this.MIN = new System.Windows.Forms.Button();
+            this.DIVISION = new System.Windows.Forms.Button();
+            this.MULTIPLY = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // PLUS
             // 
-            this.button1.Location = new System.Drawing.Point(33, 33);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.PLUS.Location = new System.Drawing.Point(33, 33);
+            this.PLUS.Name = "PLUS";
+            this.PLUS.Size = new System.Drawing.Size(75, 23);
+            this.PLUS.TabIndex = 0;
+            this.PLUS.Text = "+";
+            this.PLUS.UseVisualStyleBackColor = true;
+            this.PLUS.Click += new System.EventHandler(this.PLUS_Click);
             // 
-            // button2
+            // MIN
             // 
-            this.button2.Location = new System.Drawing.Point(165, 33);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "-";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.MIN.Location = new System.Drawing.Point(165, 33);
+            this.MIN.Name = "MIN";
+            this.MIN.Size = new System.Drawing.Size(75, 23);
+            this.MIN.TabIndex = 1;
+            this.MIN.Text = "-";
+            this.MIN.UseVisualStyleBackColor = true;
+            this.MIN.Click += new System.EventHandler(this.MIN_Click);
             // 
-            // button3
+            // DIVISION
             // 
-            this.button3.Location = new System.Drawing.Point(33, 82);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "/";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.DIVISION.Location = new System.Drawing.Point(33, 82);
+            this.DIVISION.Name = "DIVISION";
+            this.DIVISION.Size = new System.Drawing.Size(75, 23);
+            this.DIVISION.TabIndex = 2;
+            this.DIVISION.Text = "/";
+            this.DIVISION.UseVisualStyleBackColor = true;
+            this.DIVISION.Click += new System.EventHandler(this.DIVISION_Click);
             // 
-            // button4
+            // MULTIPLY
             // 
-            this.button4.Location = new System.Drawing.Point(165, 82);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "*";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.MULTIPLY.Location = new System.Drawing.Point(165, 82);
+            this.MULTIPLY.Name = "MULTIPLY";
+            this.MULTIPLY.Size = new System.Drawing.Size(75, 23);
+            this.MULTIPLY.TabIndex = 3;
+            this.MULTIPLY.Text = "*";
+            this.MULTIPLY.UseVisualStyleBackColor = true;
+            this.MULTIPLY.Click += new System.EventHandler(this.MULTIPLY_Click);
             // 
             // textBox1
             // 
@@ -110,10 +110,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.MULTIPLY);
+            this.Controls.Add(this.DIVISION);
+            this.Controls.Add(this.MIN);
+            this.Controls.Add(this.PLUS);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -124,10 +124,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button PLUS;
+        private System.Windows.Forms.Button MIN;
+        private System.Windows.Forms.Button DIVISION;
+        private System.Windows.Forms.Button MULTIPLY;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
