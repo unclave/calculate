@@ -1,0 +1,9 @@
+C:\Users\Admin\Desktop\VS2017\CALCULATORC\CALCULATORC\bin\Debug\CALCULATORC.exe.config
+C:\Users\Admin\Desktop\VS2017\CALCULATORC\CALCULATORC\bin\Debug\CALCULATORC.exe
+C:\Users\Admin\Desktop\VS2017\CALCULATORC\CALCULATORC\bin\Debug\CALCULATORC.pdb
+C:\Users\Admin\Desktop\VS2017\CALCULATORC\CALCULATORC\obj\Debug\CALCULATORC.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\VS2017\CALCULATORC\CALCULATORC\obj\Debug\CALCULATORC.Form1.resources
+C:\Users\Admin\Desktop\VS2017\CALCULATORC\CALCULATORC\obj\Debug\CALCULATORC.Properties.Resources.resources
+C:\Users\Admin\Desktop\VS2017\CALCULATORC\CALCULATORC\obj\Debug\CALCULATORC.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\VS2017\CALCULATORC\CALCULATORC\obj\Debug\CALCULATORC.exe
+C:\Users\Admin\Desktop\VS2017\CALCULATORC\CALCULATORC\obj\Debug\CALCULATORC.pdb
